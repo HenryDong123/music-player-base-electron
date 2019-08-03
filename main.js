@@ -8,12 +8,12 @@ app.on('ready', () => {
 						parent: mainWindow
 				},'./renderer/add.html')
 		})
-		ipcMain.on('openMusicFile', ()=>{
+		ipcMain.on('openMusicFile', (e)=>{
 				dialog.showOpenDialog({
 					properties: ['openFile', 'multiSelections'],
 					filters:[{name: 'music', extensions: ['mp3'],}]
-				},(file) => {
-					console.log(file)
+				},(files) => {
+						files && (e.sender.send('upFile', files))
 				})
 		})
 })
