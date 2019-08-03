@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4">我的播放器</h2>
+        <button type="button" id="addMusicBtn" class="mt-4 btn btn-primary btn-lg btn-block">
+            添加曲目
+        </button>
+        <div id="tracksList" class="mt-4"></div>
+        <div id="musicBar" class="container fixed-bottom bg-white pb-md-4">
+            <hr>
+            <div class="row my-2" id="player-status"></div>
+            <div class="progress">
+                <div id="playerProgress" class="progress-bar bg-dark" role="progressbar" style="width: 0%;">0%</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        require('./index.js')
+    </script>
+</body>
+</html>
