@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1796b6c1-3283-41c2-842c-35a36155bb4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/renderer/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/renderer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renderer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,15 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/electron-quick-start.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="1OuVfFaPAGHM6Kx7xn8R7fGVeUZ" />
   <component name="PropertiesComponent">
@@ -66,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564827569409</updated>
-      <workItem from="1564827572603" duration="6147000" />
+      <workItem from="1564827572603" duration="10853000" />
     </task>
     <servers />
   </component>
